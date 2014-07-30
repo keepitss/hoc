@@ -27,6 +27,7 @@ extern Datum pop();
 extern void xpop();
 extern void init();
 extern void execute(Inst *p);
+extern void execerror(char *s, char *t);
 
 extern Inst prog[];
 extern void eval(), add(), sub(), mul(), divop(), negate(), power();

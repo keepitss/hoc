@@ -1,5 +1,5 @@
 YFLAGS = -d	# force creation of y.tab.h
-#CFLAGS = -std=c99  -Wall -I
+CFLAGS = -std=c99 -Wall -ggdb
 OBJS   = hoc.o code.o init.o math.o symbol.o
 
 hoc4:	$(OBJS)
